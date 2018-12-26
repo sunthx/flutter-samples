@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
     return ButtonTheme(
         minWidth: 150,
         height: 80,
-        child: FlatButton(
+        child: RaisedButton(
             color: Colors.blue,
             highlightColor: Colors.blue[700],
             colorBrightness: Brightness.dark,
